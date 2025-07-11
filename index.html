@@ -2,29 +2,106 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>FRISK MAN</title>
+  <title>我々を止めることはできません！</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="image/favicon.png?v=2" type="image/png">
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: "Segoe UI", sans-serif;
       line-height: 1.6;
-      background: #fff;
+      background-image: url("image/background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
       color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .sidebar {
+      background: #f2f2f2;
+      padding: 1rem;
+      width: 210px;
+      height: 100vh;
+      overflow-y: auto;
+      position: sticky;
+      top: 0;
+    }
+
+    .sidebar h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .sidebar ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .sidebar ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex: 1;
+      flex-wrap: nowrap;
+      min-height: 100vh;
+    }
+
+    .main-content {
+      flex: 1;
       max-width: 700px;
-      margin: 0 auto;
       padding: 2rem;
     }
+
+    .right-sidebar-1,
+    .right-sidebar-2 {
+      background: #f2f2f2;
+      padding: 1rem;
+      width: 250px;
+      height: 100vh;
+      overflow-y: auto;
+      position: sticky;
+      top: 0;
+      border-left: 1px solid #ccc;
+    }
+
+    .right-sidebar-1 img {
+      width: 70%;
+      height: 70%;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
     h1, h2 {
       text-align: center;
     }
-    img {
+
+    .main-content img {
       display: block;
       margin: 1rem auto;
       max-width: 200px;
     }
+
     .links {
       margin-top: 2rem;
     }
+
     .links a {
       display: block;
       margin: 0.5rem 0;
@@ -32,33 +109,127 @@
       color: #000;
       font-weight: bold;
     }
+
     .links a:hover {
       text-decoration: underline;
     }
-    .emoji {
-      margin-right: 0.5rem;
-    }
+
     .center {
       text-align: center;
+    }
+
+    @media (max-width: 1024px) {
+      body {
+        flex-direction: column;
+      }
+
+      .sidebar,
+      .right-sidebar-1,
+      .right-sidebar-2 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border: none;
+      }
+
+      .content-wrapper {
+        flex-direction: column;
+      }
+
+      .main-content {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        order: -2;
+      }
+
+      .right-sidebar-1 {
+        order: -1;
+      }
+
+      .right-sidebar-2 {
+        order: 1;
+      }
+
+      .main-content {
+        order: 0;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>我々を止めることはできません！</h1>
 
-  <h2>FRISK MAN</h2>
-  <img src="FRISK%20MAN.png" alt="FRISK MAN">
+  <!-- 左サイドバー -->
+  <div class="sidebar">
+    <h2>具現化された力</h2>
+    <ul>
+      <li><a href="ultra-map-news/map.html">日本地図ニュース</a></li>
+      <li><a href="ultra-image-creator/main.html">memeクリエイター</a></li>
+      <li><a href="ultra-life/popup.html">人生可視化アプリ</a></li>
+    </ul>
 
-  <h2>🌟 FRISK MANの強靭な意志！</h2>
-  <p class="center">我々は、人類に、提供し、開示し、許可し始めています！</p>
-
-  <div class="links">
-    <a href="https://twitter.com/frisk_man_frisk">🩷 X（旧Twitter）</a>
-    <a href="https://github.com/devyarou">🎁 GitHub</a>
-    <a href="https://www.pixiv.net/users/117441070">🖼 pixiv</a>
-    <a href="https://frisk-man-frisk.fanbox.cc/">🍥 pixiv fanbox</a>
-    <a href="https://youtube.com/@frisk_man_frisk">📺 YouTube</a>
-    <a href="https://www.nicovideo.jp/user/123183059">🎥 ニコニコ動画</a>
+    <h2>📌 メモ</h2>
+    <p>抗えない力の波！</p>
   </div>
+
+  <!-- 中央＋右サイドバー2本 -->
+  <div class="content-wrapper">
+
+    <!-- メインコンテンツ -->
+    <div class="main-content">
+      <h1 id="about">我々を止めることはできません！</h1>
+
+      <h2>FRISK MAN</h2>
+      <img src="FRISK%20MAN.png" alt="FRISK MAN">
+
+      <h2>🌟 FRISK MANの強靭な意志！</h2>
+      <p class="center">我々は、人類に、提供し、開示し、許可し始めています！</p>
+
+      <h2 id="updates">📓 お知らせ</h2>
+      <p class="center">あなたの世界は終わりではありません！我々の世界があります！</p>
+    </div>
+
+    <!-- 右サイドバーその1：画像 -->
+    <div class="right-sidebar-2">
+      <h2>止め処ない意志！</h2>
+      <div class="links" id="links">
+        <a href="https://twitter.com/frisk_man_frisk">📢 X</a>意志は無限に拡散されます！
+        <a href="https://github.com/devyarou">🎁 GitHub</a>力の制限はありません！
+        <a href="https://www.pixiv.net/users/117441070">🖼 pixiv</a>新たな世界は映されます！
+        <a href="https://frisk-man-frisk.fanbox.cc/">🍥 pixiv fanbox</a>戦わなくてはなりません！
+        <a href="https://youtube.com/@frisk_man_frisk">📺 YouTube</a>意志は映像となります！
+        <a href="https://www.nicovideo.jp/user/123183059">🎥 ニコニコ動画</a>あなたの意志は我々の意志の一部となります！
+      </div>
+    </div>
+
+    <!-- 右サイドバーその2：SNS -->
+    <div class="right-sidebar-1">
+      <h2>新世界を見る！</h2>
+      <div style="text-align: center;">
+      <img id="randomImage" src="" alt="FRISK IMAGE">
+      </div>
+      <p class=center>我々の世界も見ています！</p>
+    </div>
+
+  </div>
+
+  <!-- ランダム画像スクリプト -->
+  <script>
+    const imageList = [
+      "ニューWhiteCul.png",
+      "ニューずんだもん.png",
+      "ニュー四国めたん.png",
+      "ニュー春日部つむぎ.png",
+      "ニュー九州そら.png"
+    ];
+    const randomIndex = Math.floor(Math.random() * imageList.length);
+    const selectedImage = "image/" + imageList[randomIndex];
+    document.getElementById("randomImage").src = selectedImage;
+  </script>
+
 </body>
 </html>

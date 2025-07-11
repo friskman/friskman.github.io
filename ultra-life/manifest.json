@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ultra-life",
+  "version": "1.0",
+  "description": "あなたの残り寿命と体感時間を確認することは許可されました！",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none';"
+  }
+} 
