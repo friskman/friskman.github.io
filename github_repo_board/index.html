@@ -349,22 +349,26 @@
             }
 
             renderStats() {
-                if (!this.data) return;
+                if (!this.data || !this.data.repositories) return;
 
-                const totalRepos = this.data.repositories.length;
+                const totalRepos = this.data.repositories.length || 0;
                 const totalViews = this.data.repositories.reduce((sum, repo) => 
-                    sum + (repo.views ? repo.views.count : 0), 0);
+                    sum + (repo.views && repo.views.count ? repo.views.count : 0), 0) || 0;
                 const totalClones = this.data.repositories.reduce((sum, repo) => 
-                    sum + (repo.clones ? repo.clones.count : 0), 0);
+                    sum + (repo.clones && repo.clones.count ? repo.clones.count : 0), 0) || 0;
 
                 document.getElementById('total-repos').textContent = totalRepos.toLocaleString();
                 document.getElementById('total-views').textContent = totalViews.toLocaleString();
                 document.getElementById('total-clones').textContent = totalClones.toLocaleString();
 
-                const fetchedAt = new Date(this.data.fetched_at);
-                document.getElementById('last-updated').textContent = 
-                    fetchedAt.toLocaleDateString('ja-JP') + ' ' + 
-                    fetchedAt.toLocaleTimeString('ja-JP', {hour: '2-digit', minute: '2-digit'});
+                if (this.data.fetched_at) {
+                    const fetchedAt = new Date(this.data.fetched_at);
+                    document.getElementById('last-updated').textContent = 
+                        fetchedAt.toLocaleDateString('ja-JP') + ' ' + 
+                        fetchedAt.toLocaleTimeString('ja-JP', {hour: '2-digit', minute: '2-digit'});
+                } else {
+                    document.getElementById('last-updated').textContent = '不明';
+                }
             }
 
             renderRepositories() {
@@ -382,6 +386,11 @@
             renderRepoCard(repo) {
                 const viewsData = repo.views || { count: 0, uniques: 0 };
                 const clonesData = repo.clones || { count: 0, uniques: 0 };
+                
+                const viewsCount = viewsData.count || 0;
+                const viewsUniques = viewsData.uniques || 0;
+                const clonesCount = clonesData.count || 0;
+                const clonesUniques = clonesData.uniques || 0;
 
                 return `
                     <div class="repo-card">
@@ -400,11 +409,11 @@
                                 <h4>📊 閲覧数</h4>
                                 <div class="traffic-numbers">
                                     <div class="traffic-item">
-                                        <div class="traffic-value">${viewsData.count.toLocaleString()}</div>
+                                        <div class="traffic-value">${viewsCount.toLocaleString()}</div>
                                         <div class="traffic-label">総閲覧数</div>
                                     </div>
                                     <div class="traffic-item">
-                                        <div class="traffic-value">${viewsData.uniques.toLocaleString()}</div>
+                                        <div class="traffic-value">${viewsUniques.toLocaleString()}</div>
                                         <div class="traffic-label">ユニーク</div>
                                     </div>
                                 </div>
@@ -414,11 +423,11 @@
                                 <h4>📥 クローン数</h4>
                                 <div class="traffic-numbers">
                                     <div class="traffic-item">
-                                        <div class="traffic-value">${clonesData.count.toLocaleString()}</div>
+                                        <div class="traffic-value">${clonesCount.toLocaleString()}</div>
                                         <div class="traffic-label">総クローン数</div>
                                     </div>
                                     <div class="traffic-item">
-                                        <div class="traffic-value">${clonesData.uniques.toLocaleString()}</div>
+                                        <div class="traffic-value">${clonesUniques.toLocaleString()}</div>
                                         <div class="traffic-label">ユニーク</div>
                                     </div>
                                 </div>
