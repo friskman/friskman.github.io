@@ -315,7 +315,7 @@
             }
 
             async loadData() {
-                const response = await fetch('./traffic_data.json');
+                const response = await fetch('./github_repo_board/traffic_data.json');
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                 }
@@ -337,8 +337,7 @@
                     const lowerQuery = query.toLowerCase();
                     this.filteredData = this.data.repositories.filter(repo => 
                         repo.name.toLowerCase().includes(lowerQuery) ||
-                        repo.full_name.toLowerCase().includes(lowerQuery) ||
-                        (repo.description && repo.description.toLowerCase().includes(lowerQuery))
+                        repo.full_name.toLowerCase().includes(lowerQuery)
                     );
                 }
                 this.render();
@@ -381,11 +380,6 @@
             }
 
             renderRepoCard(repo) {
-                const badges = [];
-                if (repo.private) badges.push('<span class="private-badge">Private</span>');
-                if (repo.fork) badges.push('<span class="fork-badge">Fork</span>');
-                if (repo.language) badges.push(`<span class="language-badge">${repo.language}</span>`);
-
                 const viewsData = repo.views || { count: 0, uniques: 0 };
                 const clonesData = repo.clones || { count: 0, uniques: 0 };
 
@@ -398,12 +392,6 @@
                                         ${repo.full_name}
                                     </a>
                                 </h3>
-                                ${repo.description ? `<p>${repo.description}</p>` : ''}
-                                <div class="repo-meta">
-                                    ${badges.join('')}
-                                    <span>⭐ ${repo.stars.toLocaleString()}</span>
-                                    <span>🍴 ${repo.forks.toLocaleString()}</span>
-                                </div>
                             </div>
                         </div>
                         
