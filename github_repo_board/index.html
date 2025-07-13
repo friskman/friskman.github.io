@@ -216,7 +216,7 @@
                 const sortedRepos = [...this.data.repositories].sort((a, b) => {
                     const aClones = a.clones && a.clones.count ? a.clones.count : 0;
                     const bClones = b.clones && b.clones.count ? b.clones.count : 0;
-                    return aClones - bClones;
+                    return bClones - aClones;
                 });
 
                 const headerHtml = `
