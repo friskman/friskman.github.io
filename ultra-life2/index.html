@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ultra-life2</title>
+  <link rel="stylesheet" href="life2.css">
+</head>
+<body>
+  <div class="scroll-btns">
+    <button id="scrollTopBtn" title="トップへ">▲</button>
+    <button id="scrollBottomBtn" title="ボトムへ">▼</button>
+  </div>
+  <div class="life2-container">
+    <div class="life2-left">
+      <!-- ultra-life部分 -->
+      <div class="container" id="life-container">
+        <div class="inputs">
+          <div class="age-exist-row">
+            <label><input type="radio" name="ageExist" id="ageExistYes" value="yes" checked> 寿命あり</label>
+            <label><input type="radio" name="ageExist" id="ageExistNo" value="no"> 寿命なし</label>
+          </div>
+          <div class="life2-birth-memorial-row">
+            <label>誕生日: <input type="date" id="birthday-input"></label>
+            <label>命日: <input type="date" id="memorialday-input"></label>
+          </div>
+          <label>あなたの年齢 <input id="age" type="number" min="0" max="200" value="25" disabled> 歳</label>
+          <label id="lifeLabel">あなたの寿命(予想)
+            <input id="life" type="number" min="1" max="500" value="80" style="width:60px;"> 歳
+            <input id="lifeRange" type="range" min="1" max="500" value="80" style="vertical-align: middle; width:120px;">
+          </label>
+          <label>あなたの年収(万円) <input id="value" type="number" min="0" value="500" placeholder="例: 500"> 万円</label>
+        </div>
+        <div class="results" id="results"></div>
+        <div class="bars">
+          <img src="FRISK MAN.png" alt="face" id="faceImage" style="margin-left: 36px; width: 128px; height: 128px;" />
+          <div style="display: flex; align-items: center;">
+            <div>
+              <div>時間</div>
+              <div class="bar-bg"><div class="bar" id="lifeBar"></div></div>
+              <div id="lifePercent"></div>
+            </div>
+          </div>
+          <div>
+            <div>体感時間</div>
+            <div class="bar-bg"><div class="bar" id="subjectiveBar"></div></div>
+            <div id="subjectivePercent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="life2-right">
+      <!-- ultra-calendar部分 -->
+      <div class="calendar-panel">
+        <div style="display: flex; align-items: flex-start; gap: 16px; margin-bottom: 16px;">
+          <img src="FRISK MAN.png" alt="FRISK MAN" style="max-width: 80px; box-shadow: 0 2px 8px #0002; border-radius: 8px; background: #fff; padding: 2px;">
+          <div id="calendar-range" style="background: #fff; border-radius: 8px; padding: 4px 8px; font-weight: bold; font-size: 1.1em; box-shadow: 0 2px 8px #0002; margin-top: 8px;"> </div>
+          <button id="show-graph-btn" style="margin: 8px 0 16px 0; display: block;">体感時間グラフを表示</button>
+        </div>
+        <div class="calendar-controls-fixed">
+          <label for="start-year">開始年：</label>
+          <select id="start-year"></select>
+          <label for="end-year">終了年：</label>
+          <select id="end-year"></select>
+          <button id="show-life-btn">一生分表示</button>
+        </div>
+        <div id="multi-calendar"></div>
+      </div>
+    </div>
+  </div>
+  <div id="graph-modal-bg" style="display:none; position:fixed; z-index:2000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4);"></div>
+  <div id="graph-modal" style="display:none; position:fixed; z-index:2100; left:50%; top:50%; transform:translate(-50%,-50%); background:#fff; border-radius:12px; box-shadow:0 4px 24px #0005; padding:32px 24px 24px 24px; min-width:340px; min-height:320px;">
+    <button id="graph-modal-close" style="position:absolute; right:16px; top:12px; font-size:1.5em; background:none; border:none; cursor:pointer;">×</button>
+    <h2 style="margin-top:0;">年齢と残り体感時間グラフ</h2>
+    <canvas id="graph-canvas" width="600" height="320" style="display:block; margin:0 auto;"></canvas>
+  </div>
+  <script src="life2.js"></script>
+</body>
+</html> 
