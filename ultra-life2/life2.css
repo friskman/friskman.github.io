@@ -1,0 +1,169 @@
+body {
+  font-family: 'Meiryo', 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fff;
+}
+.life2-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  padding: 24px 8px;
+}
+.life2-left, .life2-right {
+  flex: 1 1 420px;
+  min-width: 340px;
+  max-width: 600px;
+}
+/* ultra-life部分 */
+.container { padding: 16px; width: 100%; box-sizing: border-box; }
+.inputs label { display: block; margin-bottom: 8px; }
+.results { margin: 16px 0; }
+.bars { display: flex; gap: 32px; }
+.bar-bg { width: 80px; height: 160px; background: #eee; border: 1px solid #aaa; position: relative; }
+.bar { background: #4caf50; width: 100%; position: absolute; bottom: 0; }
+.bars > div { text-align: center; }
+#faceImage {
+  border: 1px solid #333;
+  border-radius: 50%;
+  background: #fff;
+  object-fit: contain;
+  margin-top: 32px;
+}
+.age-exist-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.life2-birth-memorial-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+/* ultra-calendar部分 */
+.calendar-panel {
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 8px 4px 12px 4px;
+}
+.calendar-year-title {
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 24px 0 8px 0;
+}
+.calendar-multi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 8px;
+}
+.calendar-multi .calendar-single {
+  min-width: 140px;
+  flex: 1 1 140px;
+  max-width: 160px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+  margin-bottom: 12px;
+  padding: 4px 2px 8px 2px;
+}
+.calendar-controls-fixed {
+  position: static;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0002;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+#calendar {
+  width: 100%;
+}
+.calendar-header {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+.calendar-weekdays, .calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.calendar-weekdays div {
+  text-align: center;
+  font-weight: bold;
+  padding: 4px 0;
+  background: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+.calendar-weekdays div:nth-child(1), .calendar-days div:nth-child(7n+1) {
+  color: #e57373;
+  background: #fff0f0;
+}
+.calendar-weekdays div:nth-child(7), .calendar-days div:nth-child(7n) {
+  color: #1976d2;
+  background: #f0f6ff;
+}
+.calendar-days div {
+  text-align: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+.calendar-days div:nth-child(7n) {
+  border-right: none;
+}
+.empty {
+  background: none;
+  border: none;
+}
+.calendar-day-past {
+  background: #3e3b3b;
+}
+.calendar-day-today {
+  background: #b8f7c5;
+  box-sizing: border-box;
+}
+.calendar-day-holiday {
+  background: #fff59d;
+}
+.calendar-day-outside-life {
+  background: #3e3b3b;
+}
+.calendar-day-birthday {
+  background: #ffb6c1 !important;
+}
+.calendar-day-memorial {
+  background: #ffc1e0 !important;
+}
+.scroll-btns {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 1000;
+}
+.scroll-btns button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  font-size: 1.5em;
+  box-shadow: 0 2px 8px #0003;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.scroll-btns button:hover {
+  background: #1565c0;
+} 
