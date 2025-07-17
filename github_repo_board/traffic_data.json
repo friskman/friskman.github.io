@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-07-16T21:14:39.757139",
+  "fetched_at": "2025-07-17T21:14:10.064253",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -31,8 +31,8 @@
         ]
       },
       "clones": {
-        "count": 162,
-        "uniques": 89,
+        "count": 176,
+        "uniques": 98,
         "clones": [
           {
             "timestamp": "2025-07-11T00:00:00Z",
@@ -61,8 +61,13 @@
           },
           {
             "timestamp": "2025-07-16T00:00:00Z",
-            "count": 16,
-            "uniques": 11
+            "count": 20,
+            "uniques": 14
+          },
+          {
+            "timestamp": "2025-07-17T00:00:00Z",
+            "count": 10,
+            "uniques": 9
           }
         ]
       }
@@ -330,25 +335,14 @@
       "name": "ultra-browser-reload",
       "full_name": "friskman/ultra-browser-reload",
       "views": {
-        "count": 15,
-        "uniques": 1,
-        "views": [
-          {
-            "timestamp": "2025-07-03T00:00:00Z",
-            "count": 15,
-            "uniques": 1
-          }
-        ]
+        "count": 0,
+        "uniques": 0,
+        "views": []
       },
       "clones": {
-        "count": 19,
-        "uniques": 19,
+        "count": 12,
+        "uniques": 12,
         "clones": [
-          {
-            "timestamp": "2025-07-03T00:00:00Z",
-            "count": 7,
-            "uniques": 7
-          },
           {
             "timestamp": "2025-07-04T00:00:00Z",
             "count": 4,
@@ -406,19 +400,9 @@
         "views": []
       },
       "clones": {
-        "count": 8,
-        "uniques": 8,
+        "count": 5,
+        "uniques": 5,
         "clones": [
-          {
-            "timestamp": "2025-07-02T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-07-03T00:00:00Z",
-            "count": 2,
-            "uniques": 2
-          },
           {
             "timestamp": "2025-07-06T00:00:00Z",
             "count": 1,
@@ -802,14 +786,9 @@
         ]
       },
       "clones": {
-        "count": 4,
-        "uniques": 4,
+        "count": 3,
+        "uniques": 3,
         "clones": [
-          {
-            "timestamp": "2025-07-03T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-07-11T00:00:00Z",
             "count": 1,
