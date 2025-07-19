@@ -1,94 +1,13 @@
 {
-  "fetched_at": "2025-07-18T21:14:14.475935",
+  "fetched_at": "2025-07-19T21:13:12.071763",
   "repositories": [
-    {
-      "name": "friskman.github.io",
-      "full_name": "friskman/friskman.github.io",
-      "views": {
-        "count": 157,
-        "uniques": 2,
-        "views": [
-          {
-            "timestamp": "2025-07-11T00:00:00Z",
-            "count": 30,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-07-12T00:00:00Z",
-            "count": 88,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-07-13T00:00:00Z",
-            "count": 38,
-            "uniques": 2
-          },
-          {
-            "timestamp": "2025-07-16T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          }
-        ]
-      },
-      "clones": {
-        "count": 182,
-        "uniques": 103,
-        "clones": [
-          {
-            "timestamp": "2025-07-11T00:00:00Z",
-            "count": 39,
-            "uniques": 25
-          },
-          {
-            "timestamp": "2025-07-12T00:00:00Z",
-            "count": 33,
-            "uniques": 22
-          },
-          {
-            "timestamp": "2025-07-13T00:00:00Z",
-            "count": 39,
-            "uniques": 28
-          },
-          {
-            "timestamp": "2025-07-14T00:00:00Z",
-            "count": 23,
-            "uniques": 17
-          },
-          {
-            "timestamp": "2025-07-15T00:00:00Z",
-            "count": 12,
-            "uniques": 9
-          },
-          {
-            "timestamp": "2025-07-16T00:00:00Z",
-            "count": 20,
-            "uniques": 14
-          },
-          {
-            "timestamp": "2025-07-17T00:00:00Z",
-            "count": 15,
-            "uniques": 13
-          },
-          {
-            "timestamp": "2025-07-18T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          }
-        ]
-      }
-    },
     {
       "name": "ultra-map-news",
       "full_name": "friskman/ultra-map-news",
       "views": {
-        "count": 19,
-        "uniques": 5,
+        "count": 5,
+        "uniques": 2,
         "views": [
-          {
-            "timestamp": "2025-07-05T00:00:00Z",
-            "count": 15,
-            "uniques": 5
-          },
           {
             "timestamp": "2025-07-06T00:00:00Z",
             "count": 1,
@@ -98,18 +17,18 @@
             "timestamp": "2025-07-13T00:00:00Z",
             "count": 3,
             "uniques": 1
+          },
+          {
+            "timestamp": "2025-07-19T00:00:00Z",
+            "count": 1,
+            "uniques": 1
           }
         ]
       },
       "clones": {
-        "count": 16,
-        "uniques": 16,
+        "count": 13,
+        "uniques": 13,
         "clones": [
-          {
-            "timestamp": "2025-07-05T00:00:00Z",
-            "count": 3,
-            "uniques": 3
-          },
           {
             "timestamp": "2025-07-06T00:00:00Z",
             "count": 2,
@@ -350,14 +269,9 @@
         "views": []
       },
       "clones": {
-        "count": 8,
-        "uniques": 8,
+        "count": 7,
+        "uniques": 7,
         "clones": [
-          {
-            "timestamp": "2025-07-05T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-07-06T00:00:00Z",
             "count": 1,
@@ -470,14 +384,9 @@
       "name": "ultra-life",
       "full_name": "friskman/ultra-life",
       "views": {
-        "count": 14,
+        "count": 13,
         "uniques": 3,
         "views": [
-          {
-            "timestamp": "2025-07-05T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-07-09T00:00:00Z",
             "count": 3,
@@ -738,15 +647,9 @@
       "name": "ultra-crypt-currency",
       "full_name": "friskman/ultra-crypt-currency",
       "views": {
-        "count": 1,
-        "uniques": 1,
-        "views": [
-          {
-            "timestamp": "2025-07-05T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          }
-        ]
+        "count": 0,
+        "uniques": 0,
+        "views": []
       },
       "clones": {
         "count": 3,
