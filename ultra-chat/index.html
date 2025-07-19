@@ -62,10 +62,11 @@
       background: #45a049;
     }
   </style>
+
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
     import {
-      getFirestore, collection, addDoc, onSnapshot, query, orderBy, serverTimestamp
+      getFirestore, collection, addDoc, onSnapshot, query, orderBy
     } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
     import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
     import {
@@ -95,7 +96,7 @@
 
     function generateNickname(uid) {
       if (!uid) return "匿名???";
-      return "匿名" + uid.slice(-3).toUpperCase();
+      return "anon" + uid.slice(-3).toUpperCase();
     }
 
     signInAnonymously(auth).catch((error) => {
@@ -124,18 +125,23 @@
             return;
           }
 
-          const text = document.getElementById("message").value;
-          if (!text.trim()) return;
+          const text = document.getElementById("message").value.trim();
+          if (!text) return;
 
-          await addDoc(collection(db, "messages"), {
-            text,
-            uid: currentUID,
-            nickname: nickname,
-            created: serverTimestamp()
-          });
+          try {
+            await addDoc(collection(db, "messages"), {
+              text,
+              uid: currentUID,
+              nickname: nickname
+              // "created" は送らない → Firestore ルールに準拠
+            });
 
-          document.getElementById("message").value = "";
-          lastSendTime = now;
+            document.getElementById("message").value = "";
+            lastSendTime = now;
+          } catch (err) {
+            alert("送信に失敗しました: " + err.message);
+            console.error(err);
+          }
         };
 
         const q = query(collection(db, "messages"), orderBy("created"));
