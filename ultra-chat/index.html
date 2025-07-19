@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>止め処なき我々の意志！</title>
   <style>
     body {
@@ -138,7 +138,8 @@
             await addDoc(collection(db, "messages"), {
               text: text,
               uid: String(currentUID),
-              nickname: nickname
+              nickname: nickname,
+              created: serverTimestamp()
             });
 
             document.getElementById("message").value = "";
@@ -197,7 +198,7 @@
     止め処なき我々の意志！
   </h1>
   <div id="chat"></div>
-  <textarea id="message" placeholder="メッセージを入力（複数行可）"></textarea><br>
+  <textarea id="message" placeholder="メッセージを入力（複数行可）"></textarea><br />
   <button onclick="sendMessage()">送信</button>
 </body>
 </html>
