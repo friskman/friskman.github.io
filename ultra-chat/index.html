@@ -95,8 +95,10 @@
     let lastSendTime = 0;
 
     function generateNickname(uid) {
-      if (!uid) return "匿名???";
-      return "anon" + uid.slice(-3).toUpperCase();
+      if (!uid) return "anon000";
+      // UIDの英数字のみ抽出し、下3桁を使う
+      const safeUid = uid.replace(/[^a-zA-Z0-9]/g, "");
+      return "anon" + safeUid.slice(-3);
     }
 
     signInAnonymously(auth).catch((error) => {
@@ -115,8 +117,9 @@
     onAuthStateChanged(auth, (user) => {
       if (user) {
         currentUID = user.uid;
+        // nickname生成を修正版で
         const nickname = generateNickname(currentUID);
-        console.log("ログイン成功: UID =", currentUID);
+        console.log("ログイン成功: UID =", currentUID, "nickname =", nickname);
 
         window.sendMessage = async function () {
           const now = Date.now();
@@ -128,12 +131,19 @@
           const text = document.getElementById("message").value.trim();
           if (!text) return;
 
+          // nickname生成＆バリデーション
+          const nickname = generateNickname(currentUID);
+          if (!/^[a-zA-Z0-9_\-]{1,50}$/.test(nickname)) {
+            alert("ニックネームが不正です: " + nickname);
+            return;
+          }
+
           try {
             await addDoc(collection(db, "messages"), {
               text,
               uid: currentUID,
               nickname: nickname
-              // "created" は送らない → Firestore ルールに準拠
+              // "created" は送らない
             });
 
             document.getElementById("message").value = "";
