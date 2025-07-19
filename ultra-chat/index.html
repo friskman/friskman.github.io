@@ -19,8 +19,7 @@
       background: #222;
     }
     .message {
-      border: 2px solid #888;
-      border-color: #4caf50;
+      border: 2px solid #4caf50;
       border-radius: 10px;
       padding: 8px;
       margin: 5px 0;
@@ -66,12 +65,9 @@
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
     import {
-      getFirestore, collection, addDoc, onSnapshot, query, orderBy
+      getFirestore, collection, addDoc, onSnapshot, query, orderBy, serverTimestamp
     } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
     import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-    import {
-      initializeAppCheck, ReCaptchaV3Provider
-    } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app-check.js";
 
     const firebaseConfig = {
       apiKey: "AIzaSyAmBCpv6Zk5uF5hUxkZz7oCmPyttlJJTm8",
@@ -86,17 +82,11 @@
     const db = getFirestore(app);
     const auth = getAuth();
 
-    initializeAppCheck(app, {
-      provider: new ReCaptchaV3Provider("6LcoVYgrAAAAAEO2x4QeIQdS_-P-1YZEiFEqmm3N"),
-      isTokenAutoRefreshEnabled: true
-    });
-
     let currentUID = null;
     let lastSendTime = 0;
 
     function generateNickname(uid) {
       if (!uid) return "anon000";
-      // UIDの英数字のみ抽出し、下3桁を使う
       const safeUid = uid.replace(/[^a-zA-Z0-9]/g, "");
       return "anon" + safeUid.slice(-3);
     }
@@ -117,7 +107,6 @@
     onAuthStateChanged(auth, (user) => {
       if (user) {
         currentUID = user.uid;
-        // nickname生成を修正版で
         const nickname = generateNickname(currentUID);
         console.log("ログイン成功: UID =", currentUID, "nickname =", nickname);
 
@@ -131,7 +120,6 @@
           const text = document.getElementById("message").value.trim();
           if (!text) return;
 
-          // nickname生成＆バリデーション
           const nickname = generateNickname(currentUID);
           if (!/^[a-zA-Z0-9_\-]{1,50}$/.test(nickname)) {
             alert("ニックネームが不正です: " + nickname);
@@ -140,10 +128,10 @@
 
           try {
             await addDoc(collection(db, "messages"), {
-              text,
+              text: text,
               uid: currentUID,
               nickname: nickname
-              // "created" は送らない
+              // created は送らない（Firestoreルールが禁止している）
             });
 
             document.getElementById("message").value = "";
