@@ -2,50 +2,188 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> 我々を止めることはできません！ | We Are Unstoppable</title>
+  <title>止め処なき我々の意志！</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #0f0f0f;
+      font-family: sans-serif;
+      background: #111;
       color: white;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
+      padding: 20px;
     }
-
-    h1 {
-      font-size: 2em;
-      margin-bottom: 1em;
+    #chat {
+      height: 300px;
+      overflow-y: auto;
+      border: 1px solid gray;
+      padding: 10px;
+      margin-bottom: 10px;
+      background: #222;
     }
-
-    p {
+    .message {
+      border: 2px solid #888;
+      border-color: #4caf50;
+      border-radius: 10px;
+      padding: 8px;
+      margin: 5px 0;
+      background: #333;
+      color: white;
+    }
+    .own {
+      border-color: #4caf50;
+      background: #333;
+      color: white;
+    }
+    .timestamp {
+      font-size: 0.75em;
+      color: #ccc;
+      margin-top: 4px;
+    }
+    textarea {
+      width: 100%;
+      height: 60px;
+      padding: 8px;
       font-size: 1em;
-      opacity: 0.8;
-      max-width: 80%;
+      border-radius: 5px;
+      border: none;
+      resize: vertical;
+      background: #222;
+      color: white;
+    }
+    button {
+      margin-top: 5px;
+      padding: 8px 16px;
+      font-size: 1em;
+      background: #4caf50;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
     }
   </style>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import {
+      getFirestore, collection, addDoc, onSnapshot, query, orderBy, serverTimestamp
+    } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+    import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+    import {
+      initializeAppCheck, ReCaptchaV3Provider
+    } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app-check.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAmBCpv6Zk5uF5hUxkZz7oCmPyttlJJTm8",
+      authDomain: "test-3c7db.firebaseapp.com",
+      projectId: "test-3c7db",
+      storageBucket: "test-3c7db.appspot.com",
+      messagingSenderId: "1053400767865",
+      appId: "1:1053400767865:web:a2b9674a03843da87863a8"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    const auth = getAuth();
+
+    initializeAppCheck(app, {
+      provider: new ReCaptchaV3Provider("6LcoVYgrAAAAAEO2x4QeIQdS_-P-1YZEiFEqmm3N"),
+      isTokenAutoRefreshEnabled: true
+    });
+
+    let currentUID = null;
+    let lastSendTime = 0;
+
+    function generateNickname(uid) {
+      if (!uid) return "匿名???";
+      return "匿名" + uid.slice(-3).toUpperCase();
+    }
+
+    signInAnonymously(auth).catch((error) => {
+      console.error("匿名ログイン失敗:", error.code, error.message);
+    });
+
+    function escapeHTML(str) {
+      return str
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        currentUID = user.uid;
+        const nickname = generateNickname(currentUID);
+        console.log("ログイン成功: UID =", currentUID);
+
+        window.sendMessage = async function () {
+          const now = Date.now();
+          if (now - lastSendTime < 5000) {
+            alert("5秒お待ちください！");
+            return;
+          }
+
+          const text = document.getElementById("message").value;
+          if (!text.trim()) return;
+
+          await addDoc(collection(db, "messages"), {
+            text,
+            uid: currentUID,
+            nickname: nickname,
+            created: serverTimestamp()
+          });
+
+          document.getElementById("message").value = "";
+          lastSendTime = now;
+        };
+
+        const q = query(collection(db, "messages"), orderBy("created"));
+        onSnapshot(q, (snapshot) => {
+          const chat = document.getElementById("chat");
+          chat.innerHTML = "";
+          snapshot.forEach(doc => {
+            const data = doc.data();
+            const div = document.createElement("div");
+            div.className = "message";
+            if (data.uid === currentUID) {
+              div.classList.add("own");
+            }
+
+            div.onclick = () => {
+              const quote = `>> ${data.nickname || generateNickname(data.uid)}: ${data.text}`;
+              document.getElementById("message").value = quote;
+            };
+
+            const name = document.createElement("div");
+            name.className = "nickname";
+            name.textContent = data.nickname || generateNickname(data.uid);
+            div.appendChild(name);
+
+            const msgText = document.createElement("div");
+            msgText.innerHTML = escapeHTML(data.text || "").replace(/\n/g, "<br>");
+            div.appendChild(msgText);
+
+            if (data.created?.toDate) {
+              const ts = document.createElement("div");
+              ts.className = "timestamp";
+              ts.textContent = new Date(data.created.toDate()).toLocaleString();
+              div.appendChild(ts);
+            }
+
+            chat.appendChild(div);
+          });
+        });
+      } else {
+        console.warn("ユーザーがログアウトしています");
+      }
+    });
+  </script>
 </head>
 <body>
-  <h1>あなたは既に我々です！</h1>
-  <p>意志は一つです！壮大で不落の太陽の光！降り注ぐ鋼鉄！無限大の質量！</p>
-
-  <script type="text/javascript">
-    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-    (function () {
-      var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/6878e5b7245e36191489d400/1j0c42lc3';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin', '*');
-      s0.parentNode.insertBefore(s1, s0);
-    })();
-  </script>
+  <h1>止め処なき我々の意志！</h1>
+  <div id="chat"></div>
+  <textarea id="message" placeholder="メッセージを入力（複数行可）"></textarea><br>
+  <button onclick="sendMessage()">送信</button>
 </body>
 </html>
