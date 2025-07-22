@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>性格診断</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: sans-serif; background: #f7f7f7; margin: 0; padding: 0; }
+    .container { max-width: 500px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #ccc; padding: 24px; }
+    h1 { text-align: center; }
+    .question { margin: 24px 0; }
+    .answers label { display: block; margin: 8px 0; }
+    .result { text-align: center; margin-top: 32px; font-size: 1.2em; }
+    button { display: block; margin: 24px auto 0; padding: 10px 32px; font-size: 1em; border-radius: 4px; border: none; background: #4caf50; color: #fff; cursor: pointer; }
+    button:disabled { background: #aaa; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="display: flex; align-items: center; justify-content: center; gap: 16px;">
+      性格診断
+      <img src="FRISK MAN.png" alt="FRISK MAN" style="height: 40px;">
+    </h1>
+    <form id="quizForm">
+      <div id="questions"></div>
+      <button type="submit" id="submitBtn">診断する</button>
+    </form>
+    <div class="result" id="result"></div>
+  </div>
+  <script>
+    // 質問と選択肢
+    const questions = [
+      {
+        text: "あなたは新しいことに挑戦するのが好きですか？",
+        answers: [
+          { text: "はい", type: "A" },
+          { text: "いいえ", type: "B" }
+        ]
+      },
+      {
+        text: "友達と過ごすのが好きですか？",
+        answers: [
+          { text: "はい", type: "A" },
+          { text: "いいえ", type: "B" }
+        ]
+      },
+      {
+        text: "計画を立てて行動するのが得意ですか？",
+        answers: [
+          { text: "はい", type: "B" },
+          { text: "いいえ", type: "A" }
+        ]
+      },
+      {
+        text: "細かいことに気がつく方ですか？",
+        answers: [
+          { text: "はい", type: "B" },
+          { text: "いいえ", type: "A" }
+        ]
+      }
+    ];
+
+    // 結果の説明
+    const results = {
+      "A": "あなたは自由奔放で好奇心旺盛なタイプです！新しいことに積極的に挑戦し、周囲を明るくします。",
+      "B": "あなたは慎重で計画的なタイプです！落ち着いて物事を進めるのが得意です。"
+    };
+
+    // 質問を表示
+    const questionsDiv = document.getElementById('questions');
+    questions.forEach((q, i) => {
+      const qDiv = document.createElement('div');
+      qDiv.className = 'question';
+      qDiv.innerHTML = `<div>${i+1}. ${q.text}</div>`;
+      const ansDiv = document.createElement('div');
+      ansDiv.className = 'answers';
+      q.answers.forEach((a, j) => {
+        const id = `q${i}_a${j}`;
+        ansDiv.innerHTML += `
+          <label>
+            <input type="radio" name="q${i}" value="${a.type}" required>
+            ${a.text}
+          </label>
+        `;
+      });
+      qDiv.appendChild(ansDiv);
+      questionsDiv.appendChild(qDiv);
+    });
+
+    // 診断処理
+    document.getElementById('quizForm').onsubmit = function(e) {
+      e.preventDefault();
+      let counts = {A:0, B:0};
+      for(let i=0; i<questions.length; i++) {
+        const val = document.querySelector(`input[name="q${i}"]:checked`).value;
+        counts[val]++;
+      }
+      // 一番多いタイプを判定
+      const type = counts.A >= counts.B ? "A" : "B";
+      document.getElementById('result').textContent = results[type];
+      document.getElementById('submitBtn').disabled = true;
+    };
+  </script>
+</body>
+</html>
