@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>ULTRA-KANKOCHI</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2em;
+      text-align: center;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1em;
+    }
+
+    header img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+
+    select, button {
+      font-size: 1.2em;
+      padding: 0.5em 1em;
+      margin: 1em;
+    }
+
+    #result {
+      margin-top: 2em;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <!-- タイトル + アイコン表示 -->
+  <header>
+    <img src="FRISK MAN.png" alt="FRISK MAN">
+    <h1>ULTRA-KANKOCHI</h1>
+  </header>
+
+  <!-- 都道府県選択 -->
+  <div>
+    <label for="citySelect">都道府県を選択：</label>
+    <select id="citySelect">
+      <option value="all">すべて</option>
+    </select>
+  </div>
+
+  <button onclick="showPlace()">観光地を表示！</button>
+  <div id="result">👉 ボタンを押してください！</div>
+
+  <script>
+    let places = [];
+
+    // JSONを読み込み
+    fetch('places.json')
+      .then(response => response.json())
+      .then(data => {
+        places = data;
+        populateCityOptions(data); // 都道府県リストを作成
+      })
+      .catch(error => {
+        document.getElementById("result").textContent = "データの読み込みに失敗しました。";
+        console.error(error);
+      });
+
+    // 都道府県のセレクトメニューを生成
+    function populateCityOptions(data) {
+      const select = document.getElementById("citySelect");
+      const cities = [...new Set(data.map(p => p.city))].sort();
+      for (const city of cities) {
+        const option = document.createElement("option");
+        option.value = city;
+        option.textContent = city;
+        select.appendChild(option);
+      }
+    }
+
+    // 表示処理
+    function showPlace() {
+      if (places.length === 0) {
+        document.getElementById("result").textContent = "データがまだ読み込まれていません。";
+        return;
+      }
+
+      const selectedCity = document.getElementById("citySelect").value;
+      const filtered = selectedCity === "all"
+        ? places
+        : places.filter(p => p.city === selectedCity);
+
+      if (filtered.length === 0) {
+        document.getElementById("result").textContent = "その都道府県には観光地データがありません。";
+        return;
+      }
+
+      const randomIndex = Math.floor(Math.random() * filtered.length);
+      const place = filtered[randomIndex];
+
+      document.getElementById("result").innerHTML = `
+        🗾 都道府県: ${place.city}<br/>
+        🎯 <strong>${place.name}</strong>
+      `;
+    }
+  </script>
+</body>
+</html>
