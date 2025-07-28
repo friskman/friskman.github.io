@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-07-27T21:13:33.547622",
+  "fetched_at": "2025-07-28T21:14:32.214270",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -21,14 +21,9 @@
         ]
       },
       "clones": {
-        "count": 167,
-        "uniques": 97,
+        "count": 149,
+        "uniques": 86,
         "clones": [
-          {
-            "timestamp": "2025-07-14T00:00:00Z",
-            "count": 23,
-            "uniques": 17
-          },
           {
             "timestamp": "2025-07-15T00:00:00Z",
             "count": 12,
@@ -91,8 +86,13 @@
           },
           {
             "timestamp": "2025-07-27T00:00:00Z",
-            "count": 2,
-            "uniques": 2
+            "count": 6,
+            "uniques": 6
+          },
+          {
+            "timestamp": "2025-07-28T00:00:00Z",
+            "count": 1,
+            "uniques": 1
           }
         ]
       }
@@ -117,14 +117,9 @@
         ]
       },
       "clones": {
-        "count": 10,
-        "uniques": 10,
+        "count": 4,
+        "uniques": 4,
         "clones": [
-          {
-            "timestamp": "2025-07-14T00:00:00Z",
-            "count": 6,
-            "uniques": 6
-          },
           {
             "timestamp": "2025-07-15T00:00:00Z",
             "count": 2,
@@ -163,14 +158,9 @@
         ]
       },
       "clones": {
-        "count": 13,
-        "uniques": 12,
+        "count": 8,
+        "uniques": 8,
         "clones": [
-          {
-            "timestamp": "2025-07-14T00:00:00Z",
-            "count": 5,
-            "uniques": 5
-          },
           {
             "timestamp": "2025-07-15T00:00:00Z",
             "count": 2,
