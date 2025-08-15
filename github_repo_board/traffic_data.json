@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-08-14T21:13:40.899400",
+  "fetched_at": "2025-08-15T21:12:03.644493",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -26,14 +26,9 @@
         ]
       },
       "clones": {
-        "count": 57,
-        "uniques": 43,
+        "count": 53,
+        "uniques": 40,
         "clones": [
-          {
-            "timestamp": "2025-08-01T00:00:00Z",
-            "count": 4,
-            "uniques": 4
-          },
           {
             "timestamp": "2025-08-02T00:00:00Z",
             "count": 5,
