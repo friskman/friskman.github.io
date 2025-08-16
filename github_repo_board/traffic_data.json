@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-08-15T21:12:03.644493",
+  "fetched_at": "2025-08-16T21:12:48.918904",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -26,14 +26,9 @@
         ]
       },
       "clones": {
-        "count": 53,
-        "uniques": 40,
+        "count": 48,
+        "uniques": 37,
         "clones": [
-          {
-            "timestamp": "2025-08-02T00:00:00Z",
-            "count": 5,
-            "uniques": 5
-          },
           {
             "timestamp": "2025-08-03T00:00:00Z",
             "count": 4,
@@ -96,15 +91,9 @@
       "name": "ultra-map-news",
       "full_name": "friskman/ultra-map-news",
       "views": {
-        "count": 1,
-        "uniques": 1,
-        "views": [
-          {
-            "timestamp": "2025-08-02T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          }
-        ]
+        "count": 0,
+        "uniques": 0,
+        "views": []
       },
       "clones": {
         "count": 2,
@@ -477,14 +466,9 @@
         "views": []
       },
       "clones": {
-        "count": 2,
+        "count": 1,
         "uniques": 1,
         "clones": [
-          {
-            "timestamp": "2025-08-02T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-08-09T00:00:00Z",
             "count": 1,
