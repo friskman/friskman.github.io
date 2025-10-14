@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-10-13T21:12:01.215180",
+  "fetched_at": "2025-10-14T21:13:46.891738",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -10,14 +10,9 @@
         "views": []
       },
       "clones": {
-        "count": 60,
-        "uniques": 43,
+        "count": 65,
+        "uniques": 46,
         "clones": [
-          {
-            "timestamp": "2025-09-30T00:00:00Z",
-            "count": 4,
-            "uniques": 4
-          },
           {
             "timestamp": "2025-10-01T00:00:00Z",
             "count": 4,
@@ -77,6 +72,16 @@
             "timestamp": "2025-10-12T00:00:00Z",
             "count": 5,
             "uniques": 5
+          },
+          {
+            "timestamp": "2025-10-13T00:00:00Z",
+            "count": 4,
+            "uniques": 4
+          },
+          {
+            "timestamp": "2025-10-14T00:00:00Z",
+            "count": 5,
+            "uniques": 3
           }
         ]
       }
@@ -170,15 +175,9 @@
         "views": []
       },
       "clones": {
-        "count": 1,
-        "uniques": 1,
-        "clones": [
-          {
-            "timestamp": "2025-09-30T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          }
-        ]
+        "count": 0,
+        "uniques": 0,
+        "clones": []
       }
     },
     {
@@ -297,15 +296,9 @@
         "views": []
       },
       "clones": {
-        "count": 1,
-        "uniques": 1,
-        "clones": [
-          {
-            "timestamp": "2025-09-30T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          }
-        ]
+        "count": 0,
+        "uniques": 0,
+        "clones": []
       }
     },
     {
@@ -356,14 +349,9 @@
         "views": []
       },
       "clones": {
-        "count": 2,
-        "uniques": 2,
+        "count": 1,
+        "uniques": 1,
         "clones": [
-          {
-            "timestamp": "2025-09-30T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-10-07T00:00:00Z",
             "count": 1,
@@ -381,14 +369,9 @@
         "views": []
       },
       "clones": {
-        "count": 2,
-        "uniques": 2,
+        "count": 1,
+        "uniques": 1,
         "clones": [
-          {
-            "timestamp": "2025-09-30T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-10-01T00:00:00Z",
             "count": 1,
@@ -436,14 +419,9 @@
         "views": []
       },
       "clones": {
-        "count": 2,
-        "uniques": 2,
+        "count": 1,
+        "uniques": 1,
         "clones": [
-          {
-            "timestamp": "2025-09-30T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-10-02T00:00:00Z",
             "count": 1,
