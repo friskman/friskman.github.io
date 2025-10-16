@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-10-15T21:12:31.088522",
+  "fetched_at": "2025-10-16T21:12:52.496892",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -10,14 +10,9 @@
         "views": []
       },
       "clones": {
-        "count": 65,
-        "uniques": 47,
+        "count": 71,
+        "uniques": 50,
         "clones": [
-          {
-            "timestamp": "2025-10-02T00:00:00Z",
-            "count": 3,
-            "uniques": 3
-          },
           {
             "timestamp": "2025-10-03T00:00:00Z",
             "count": 4,
@@ -80,8 +75,13 @@
           },
           {
             "timestamp": "2025-10-15T00:00:00Z",
-            "count": 1,
-            "uniques": 1
+            "count": 4,
+            "uniques": 4
+          },
+          {
+            "timestamp": "2025-10-16T00:00:00Z",
+            "count": 6,
+            "uniques": 3
           }
         ]
       }
@@ -90,14 +90,9 @@
       "name": "ultra-map-news",
       "full_name": "friskman/ultra-map-news",
       "views": {
-        "count": 3,
-        "uniques": 3,
+        "count": 2,
+        "uniques": 2,
         "views": [
-          {
-            "timestamp": "2025-10-01T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-10-03T00:00:00Z",
             "count": 1,
@@ -125,14 +120,9 @@
         "views": []
       },
       "clones": {
-        "count": 3,
-        "uniques": 2,
+        "count": 2,
+        "uniques": 1,
         "clones": [
-          {
-            "timestamp": "2025-10-02T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-10-05T00:00:00Z",
             "count": 1,
@@ -203,15 +193,9 @@
         "views": []
       },
       "clones": {
-        "count": 1,
-        "uniques": 1,
-        "clones": [
-          {
-            "timestamp": "2025-10-02T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          }
-        ]
+        "count": 0,
+        "uniques": 0,
+        "clones": []
       }
     },
     {
@@ -276,15 +260,9 @@
         "views": []
       },
       "clones": {
-        "count": 1,
-        "uniques": 1,
-        "clones": [
-          {
-            "timestamp": "2025-10-02T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          }
-        ]
+        "count": 0,
+        "uniques": 0,
+        "clones": []
       }
     },
     {
