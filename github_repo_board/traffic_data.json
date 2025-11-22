@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-11-21T21:13:20.278586",
+  "fetched_at": "2025-11-22T21:12:10.927992",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -10,14 +10,9 @@
         "views": []
       },
       "clones": {
-        "count": 68,
+        "count": 65,
         "uniques": 44,
         "clones": [
-          {
-            "timestamp": "2025-11-08T00:00:00Z",
-            "count": 7,
-            "uniques": 5
-          },
           {
             "timestamp": "2025-11-09T00:00:00Z",
             "count": 5,
@@ -77,6 +72,11 @@
             "timestamp": "2025-11-20T00:00:00Z",
             "count": 3,
             "uniques": 3
+          },
+          {
+            "timestamp": "2025-11-21T00:00:00Z",
+            "count": 4,
+            "uniques": 4
           }
         ]
       }
@@ -85,9 +85,15 @@
       "name": "ultra-map-news",
       "full_name": "friskman/ultra-map-news",
       "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": []
+        "count": 1,
+        "uniques": 1,
+        "views": [
+          {
+            "timestamp": "2025-11-22T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          }
+        ]
       },
       "clones": {
         "count": 1,
@@ -120,17 +126,17 @@
         "uniques": 3,
         "clones": [
           {
-            "timestamp": "2025-11-08T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
             "timestamp": "2025-11-16T00:00:00Z",
             "count": 1,
             "uniques": 1
           },
           {
             "timestamp": "2025-11-21T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-11-22T00:00:00Z",
             "count": 1,
             "uniques": 1
           }
@@ -146,8 +152,8 @@
         "views": []
       },
       "clones": {
-        "count": 2,
-        "uniques": 2,
+        "count": 3,
+        "uniques": 3,
         "clones": [
           {
             "timestamp": "2025-11-09T00:00:00Z",
@@ -156,6 +162,11 @@
           },
           {
             "timestamp": "2025-11-19T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-11-21T00:00:00Z",
             "count": 1,
             "uniques": 1
           }
@@ -216,14 +227,9 @@
         "views": []
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 2,
+        "uniques": 2,
         "clones": [
-          {
-            "timestamp": "2025-11-08T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-11-12T00:00:00Z",
             "count": 1,
@@ -246,14 +252,9 @@
         "views": []
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 2,
+        "uniques": 2,
         "clones": [
-          {
-            "timestamp": "2025-11-08T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-11-09T00:00:00Z",
             "count": 1,
@@ -460,14 +461,9 @@
         "views": []
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 2,
+        "uniques": 2,
         "clones": [
-          {
-            "timestamp": "2025-11-08T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-11-16T00:00:00Z",
             "count": 1,
