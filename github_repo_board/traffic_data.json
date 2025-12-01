@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-11-30T21:12:52.074782",
+  "fetched_at": "2025-12-01T21:13:04.069647",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -10,19 +10,9 @@
         "views": []
       },
       "clones": {
-        "count": 61,
-        "uniques": 49,
+        "count": 57,
+        "uniques": 44,
         "clones": [
-          {
-            "timestamp": "2025-11-16T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-11-17T00:00:00Z",
-            "count": 6,
-            "uniques": 6
-          },
           {
             "timestamp": "2025-11-18T00:00:00Z",
             "count": 1,
@@ -85,8 +75,8 @@
           },
           {
             "timestamp": "2025-11-30T00:00:00Z",
-            "count": 1,
-            "uniques": 1
+            "count": 4,
+            "uniques": 4
           }
         ]
       }
@@ -106,14 +96,9 @@
         ]
       },
       "clones": {
-        "count": 4,
-        "uniques": 4,
+        "count": 3,
+        "uniques": 3,
         "clones": [
-          {
-            "timestamp": "2025-11-17T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-11-25T00:00:00Z",
             "count": 1,
@@ -136,19 +121,24 @@
       "name": "ultra-memo",
       "full_name": "friskman/ultra-memo",
       "views": {
-        "count": 1,
-        "uniques": 1,
+        "count": 2,
+        "uniques": 2,
         "views": [
           {
             "timestamp": "2025-11-23T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-01T00:00:00Z",
             "count": 1,
             "uniques": 1
           }
         ]
       },
       "clones": {
-        "count": 6,
-        "uniques": 6,
+        "count": 7,
+        "uniques": 7,
         "clones": [
           {
             "timestamp": "2025-11-21T00:00:00Z",
@@ -177,6 +167,11 @@
           },
           {
             "timestamp": "2025-11-27T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-11-30T00:00:00Z",
             "count": 1,
             "uniques": 1
           }
