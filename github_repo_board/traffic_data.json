@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-12-01T21:13:04.069647",
+  "fetched_at": "2025-12-02T21:14:39.056931",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -10,14 +10,9 @@
         "views": []
       },
       "clones": {
-        "count": 57,
-        "uniques": 44,
+        "count": 74,
+        "uniques": 52,
         "clones": [
-          {
-            "timestamp": "2025-11-18T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-11-19T00:00:00Z",
             "count": 4,
@@ -77,6 +72,16 @@
             "timestamp": "2025-11-30T00:00:00Z",
             "count": 4,
             "uniques": 4
+          },
+          {
+            "timestamp": "2025-12-01T00:00:00Z",
+            "count": 16,
+            "uniques": 10
+          },
+          {
+            "timestamp": "2025-12-02T00:00:00Z",
+            "count": 2,
+            "uniques": 1
           }
         ]
       }
@@ -242,8 +247,8 @@
         "views": []
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 4,
+        "uniques": 4,
         "clones": [
           {
             "timestamp": "2025-11-20T00:00:00Z",
@@ -259,6 +264,11 @@
             "timestamp": "2025-11-27T00:00:00Z",
             "count": 1,
             "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-02T00:00:00Z",
+            "count": 1,
+            "uniques": 1
           }
         ]
       }
@@ -267,9 +277,15 @@
       "name": "ultra-calendar",
       "full_name": "friskman/ultra-calendar",
       "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": []
+        "count": 1,
+        "uniques": 1,
+        "views": [
+          {
+            "timestamp": "2025-12-01T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          }
+        ]
       },
       "clones": {
         "count": 4,
@@ -313,14 +329,9 @@
         ]
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 2,
+        "uniques": 2,
         "clones": [
-          {
-            "timestamp": "2025-11-18T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-11-25T00:00:00Z",
             "count": 1,
@@ -343,11 +354,16 @@
         "views": []
       },
       "clones": {
-        "count": 1,
-        "uniques": 1,
+        "count": 2,
+        "uniques": 2,
         "clones": [
           {
             "timestamp": "2025-11-27T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-02T00:00:00Z",
             "count": 1,
             "uniques": 1
           }
@@ -424,8 +440,8 @@
         "views": []
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 5,
+        "uniques": 5,
         "clones": [
           {
             "timestamp": "2025-11-20T00:00:00Z",
@@ -441,6 +457,11 @@
             "timestamp": "2025-11-27T00:00:00Z",
             "count": 1,
             "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-02T00:00:00Z",
+            "count": 2,
+            "uniques": 2
           }
         ]
       }
@@ -454,14 +475,9 @@
         "views": []
       },
       "clones": {
-        "count": 5,
-        "uniques": 5,
+        "count": 4,
+        "uniques": 4,
         "clones": [
-          {
-            "timestamp": "2025-11-18T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-11-19T00:00:00Z",
             "count": 1,
@@ -524,14 +540,9 @@
         "views": []
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 2,
+        "uniques": 2,
         "clones": [
-          {
-            "timestamp": "2025-11-18T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-11-25T00:00:00Z",
             "count": 1,
@@ -574,14 +585,9 @@
         "views": []
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 2,
+        "uniques": 2,
         "clones": [
-          {
-            "timestamp": "2025-11-18T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-11-25T00:00:00Z",
             "count": 1,
