@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-12-24T21:13:43.246643",
+  "fetched_at": "2025-12-25T21:13:45.176554",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -16,14 +16,9 @@
         ]
       },
       "clones": {
-        "count": 94,
-        "uniques": 69,
+        "count": 93,
+        "uniques": 67,
         "clones": [
-          {
-            "timestamp": "2025-12-11T00:00:00Z",
-            "count": 6,
-            "uniques": 6
-          },
           {
             "timestamp": "2025-12-12T00:00:00Z",
             "count": 4,
@@ -83,6 +78,11 @@
             "timestamp": "2025-12-23T00:00:00Z",
             "count": 11,
             "uniques": 10
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 5,
+            "uniques": 4
           }
         ]
       }
@@ -294,14 +294,9 @@
         "views": []
       },
       "clones": {
-        "count": 5,
-        "uniques": 5,
+        "count": 4,
+        "uniques": 4,
         "clones": [
-          {
-            "timestamp": "2025-12-11T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-12-17T00:00:00Z",
             "count": 1,
@@ -394,8 +389,8 @@
         "views": []
       },
       "clones": {
-        "count": 4,
-        "uniques": 4,
+        "count": 5,
+        "uniques": 5,
         "clones": [
           {
             "timestamp": "2025-12-18T00:00:00Z",
@@ -409,6 +404,11 @@
           },
           {
             "timestamp": "2025-12-22T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
             "count": 1,
             "uniques": 1
           }
@@ -545,8 +545,8 @@
         "views": []
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 4,
+        "uniques": 4,
         "clones": [
           {
             "timestamp": "2025-12-18T00:00:00Z",
@@ -555,6 +555,11 @@
           },
           {
             "timestamp": "2025-12-21T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
             "count": 1,
             "uniques": 1
           }
