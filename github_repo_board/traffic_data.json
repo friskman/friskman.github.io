@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-04T21:13:45.297933",
+  "fetched_at": "2026-01-05T21:15:15.399167",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -8,11 +8,6 @@
         "count": 0,
         "uniques": 0,
         "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
           {
             "timestamp": "2025-12-22T00:00:00Z",
             "count": 0,
@@ -77,6 +72,11 @@
             "timestamp": "2026-01-03T00:00:00Z",
             "count": 0,
             "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
           }
         ]
       },
@@ -84,11 +84,6 @@
         "count": 105,
         "uniques": 72,
         "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 7,
-            "uniques": 6
-          },
           {
             "timestamp": "2025-12-22T00:00:00Z",
             "count": 7,
@@ -153,6 +148,11 @@
             "timestamp": "2026-01-03T00:00:00Z",
             "count": 9,
             "uniques": 7
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 7,
+            "uniques": 7
           }
         ]
       }
@@ -160,2034 +160,6 @@
     {
       "name": "ultra-map-news",
       "full_name": "friskman/ultra-map-news",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-20T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 3,
-        "uniques": 3,
-        "clones": [
-          {
-            "timestamp": "2025-12-20T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-memo",
-      "full_name": "friskman/ultra-memo",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 5,
-        "uniques": 5,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 2,
-            "uniques": 2
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-image-creator",
-      "full_name": "friskman/ultra-image-creator",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 3,
-        "uniques": 3,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-timer",
-      "full_name": "friskman/ultra-timer",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 4,
-        "uniques": 4,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 2,
-            "uniques": 2
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-browser-reload",
-      "full_name": "friskman/ultra-browser-reload",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 3,
-        "uniques": 3,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 2,
-            "uniques": 2
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-calendar",
-      "full_name": "friskman/ultra-calendar",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 3,
-        "uniques": 3,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-map",
-      "full_name": "friskman/ultra-map",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 3,
-        "uniques": 3,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-life",
-      "full_name": "friskman/ultra-life",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 1,
-        "uniques": 1,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-news",
-      "full_name": "friskman/ultra-news",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 1,
-        "uniques": 1,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-flow-egao",
-      "full_name": "friskman/ultra-flow-egao",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 5,
-        "uniques": 5,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-egao2",
-      "full_name": "friskman/ultra-egao2",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 5,
-        "uniques": 5,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 2,
-            "uniques": 2
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-egao",
-      "full_name": "friskman/ultra-egao",
-      "views": {
-        "count": 0,
-        "uniques": 0,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 3,
-        "uniques": 3,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-kaomoji",
-      "full_name": "friskman/ultra-kaomoji",
-      "views": {
-        "count": 1,
-        "uniques": 1,
-        "views": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      },
-      "clones": {
-        "count": 1,
-        "uniques": 1,
-        "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-22T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-23T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-24T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-25T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-26T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-27T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-28T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "timestamp": "2025-12-30T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2025-12-31T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-01T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-02T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
-            "timestamp": "2026-01-03T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "ultra-crypt-currency",
-      "full_name": "friskman/ultra-crypt-currency",
       "views": {
         "count": 0,
         "uniques": 0,
@@ -2280,6 +252,2029 @@
           },
           {
             "timestamp": "2025-12-23T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-memo",
+      "full_name": "friskman/ultra-memo",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 7,
+        "uniques": 7,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 2,
+            "uniques": 2
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 2,
+            "uniques": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-image-creator",
+      "full_name": "friskman/ultra-image-creator",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 3,
+        "uniques": 3,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-timer",
+      "full_name": "friskman/ultra-timer",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 5,
+        "uniques": 5,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 2,
+            "uniques": 2
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-browser-reload",
+      "full_name": "friskman/ultra-browser-reload",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 3,
+        "uniques": 3,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 2,
+            "uniques": 2
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-calendar",
+      "full_name": "friskman/ultra-calendar",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 3,
+        "uniques": 3,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-map",
+      "full_name": "friskman/ultra-map",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 2,
+        "uniques": 2,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-life",
+      "full_name": "friskman/ultra-life",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 1,
+        "uniques": 1,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-news",
+      "full_name": "friskman/ultra-news",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 1,
+        "uniques": 1,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-flow-egao",
+      "full_name": "friskman/ultra-flow-egao",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 4,
+        "uniques": 4,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-egao2",
+      "full_name": "friskman/ultra-egao2",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 5,
+        "uniques": 5,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 2,
+            "uniques": 2
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-egao",
+      "full_name": "friskman/ultra-egao",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 3,
+        "uniques": 3,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-kaomoji",
+      "full_name": "friskman/ultra-kaomoji",
+      "views": {
+        "count": 1,
+        "uniques": 1,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 1,
+        "uniques": 1,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ultra-crypt-currency",
+      "full_name": "friskman/ultra-crypt-currency",
+      "views": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-28T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-29T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-30T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-31T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-01T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-02T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      },
+      "clones": {
+        "count": 2,
+        "uniques": 2,
+        "clones": [
+          {
+            "timestamp": "2025-12-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2025-12-23T00:00:00Z",
             "count": 0,
             "uniques": 0
           },
@@ -2335,6 +2330,11 @@
           },
           {
             "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
@@ -2349,11 +2349,6 @@
         "uniques": 0,
         "views": [
           {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
             "timestamp": "2025-12-22T00:00:00Z",
             "count": 0,
             "uniques": 0
@@ -2415,20 +2410,20 @@
           },
           {
             "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
         ]
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 2,
+        "uniques": 2,
         "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-12-22T00:00:00Z",
             "count": 0,
@@ -2491,6 +2486,11 @@
           },
           {
             "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
@@ -2505,11 +2505,6 @@
         "uniques": 0,
         "views": [
           {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
             "timestamp": "2025-12-22T00:00:00Z",
             "count": 0,
             "uniques": 0
@@ -2573,18 +2568,18 @@
             "timestamp": "2026-01-03T00:00:00Z",
             "count": 0,
             "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 0,
+            "uniques": 0
           }
         ]
       },
       "clones": {
-        "count": 4,
-        "uniques": 4,
+        "count": 5,
+        "uniques": 5,
         "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
           {
             "timestamp": "2025-12-22T00:00:00Z",
             "count": 2,
@@ -2649,6 +2644,11 @@
             "timestamp": "2026-01-03T00:00:00Z",
             "count": 1,
             "uniques": 1
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
+            "count": 1,
+            "uniques": 1
           }
         ]
       }
@@ -2661,11 +2661,6 @@
         "uniques": 0,
         "views": [
           {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
             "timestamp": "2025-12-22T00:00:00Z",
             "count": 0,
             "uniques": 0
@@ -2727,20 +2722,20 @@
           },
           {
             "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
         ]
       },
       "clones": {
-        "count": 3,
-        "uniques": 3,
+        "count": 2,
+        "uniques": 2,
         "clones": [
-          {
-            "timestamp": "2025-12-21T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2025-12-22T00:00:00Z",
             "count": 0,
@@ -2803,6 +2798,11 @@
           },
           {
             "timestamp": "2026-01-03T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-01-04T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
