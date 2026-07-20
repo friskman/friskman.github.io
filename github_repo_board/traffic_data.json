@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T21:43:59.676670",
+  "fetched_at": "2026-07-20T21:56:14.815533",
   "repositories": [
     {
       "name": "friskman.github.io",
@@ -8,11 +8,6 @@
         "count": 0,
         "uniques": 0,
         "views": [
-          {
-            "timestamp": "2026-07-05T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
           {
             "timestamp": "2026-07-06T00:00:00Z",
             "count": 0,
@@ -77,6 +72,11 @@
             "timestamp": "2026-07-18T00:00:00Z",
             "count": 0,
             "uniques": 0
+          },
+          {
+            "timestamp": "2026-07-19T00:00:00Z",
+            "count": 0,
+            "uniques": 0
           }
         ]
       },
@@ -84,11 +84,6 @@
         "count": 93,
         "uniques": 50,
         "clones": [
-          {
-            "timestamp": "2026-07-05T00:00:00Z",
-            "count": 3,
-            "uniques": 3
-          },
           {
             "timestamp": "2026-07-06T00:00:00Z",
             "count": 9,
@@ -153,6 +148,11 @@
             "timestamp": "2026-07-18T00:00:00Z",
             "count": 11,
             "uniques": 7
+          },
+          {
+            "timestamp": "2026-07-19T00:00:00Z",
+            "count": 3,
+            "uniques": 3
           }
         ]
       }
@@ -165,11 +165,6 @@
         "uniques": 0,
         "views": [
           {
-            "timestamp": "2026-07-05T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
             "timestamp": "2026-07-06T00:00:00Z",
             "count": 0,
             "uniques": 0
@@ -231,20 +226,20 @@
           },
           {
             "timestamp": "2026-07-18T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-07-19T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
         ]
       },
       "clones": {
-        "count": 2,
-        "uniques": 2,
+        "count": 1,
+        "uniques": 1,
         "clones": [
-          {
-            "timestamp": "2026-07-05T00:00:00Z",
-            "count": 1,
-            "uniques": 1
-          },
           {
             "timestamp": "2026-07-06T00:00:00Z",
             "count": 0,
@@ -307,6 +302,11 @@
           },
           {
             "timestamp": "2026-07-18T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-07-19T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
@@ -1881,11 +1881,6 @@
         "uniques": 0,
         "views": [
           {
-            "timestamp": "2026-07-05T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
             "timestamp": "2026-07-06T00:00:00Z",
             "count": 0,
             "uniques": 0
@@ -1947,6 +1942,11 @@
           },
           {
             "timestamp": "2026-07-18T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-07-19T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
@@ -1957,11 +1957,6 @@
         "uniques": 3,
         "clones": [
           {
-            "timestamp": "2026-07-05T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
             "timestamp": "2026-07-06T00:00:00Z",
             "count": 0,
             "uniques": 0
@@ -2023,6 +2018,11 @@
           },
           {
             "timestamp": "2026-07-18T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-07-19T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
@@ -2505,11 +2505,6 @@
         "uniques": 0,
         "views": [
           {
-            "timestamp": "2026-07-05T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
             "timestamp": "2026-07-06T00:00:00Z",
             "count": 0,
             "uniques": 0
@@ -2573,6 +2568,11 @@
             "timestamp": "2026-07-18T00:00:00Z",
             "count": 0,
             "uniques": 0
+          },
+          {
+            "timestamp": "2026-07-19T00:00:00Z",
+            "count": 0,
+            "uniques": 0
           }
         ]
       },
@@ -2580,11 +2580,6 @@
         "count": 1,
         "uniques": 1,
         "clones": [
-          {
-            "timestamp": "2026-07-05T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
           {
             "timestamp": "2026-07-06T00:00:00Z",
             "count": 0,
@@ -2647,6 +2642,11 @@
           },
           {
             "timestamp": "2026-07-18T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-07-19T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
@@ -2661,11 +2661,6 @@
         "uniques": 0,
         "views": [
           {
-            "timestamp": "2026-07-05T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
             "timestamp": "2026-07-06T00:00:00Z",
             "count": 0,
             "uniques": 0
@@ -2727,6 +2722,11 @@
           },
           {
             "timestamp": "2026-07-18T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-07-19T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
@@ -2737,11 +2737,6 @@
         "uniques": 2,
         "clones": [
           {
-            "timestamp": "2026-07-05T00:00:00Z",
-            "count": 0,
-            "uniques": 0
-          },
-          {
             "timestamp": "2026-07-06T00:00:00Z",
             "count": 1,
             "uniques": 1
@@ -2803,6 +2798,11 @@
           },
           {
             "timestamp": "2026-07-18T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-07-19T00:00:00Z",
             "count": 0,
             "uniques": 0
           }
